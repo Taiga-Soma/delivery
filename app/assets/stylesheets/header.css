@@ -1,0 +1,180 @@
+.header {
+  position: relative;
+  z-index: 100;
+  background: #fff;
+  border-bottom: .1rem solid #eaeaea;
+  width: 100%;
+}
+
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+.header-site-name {
+  display: block;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.header-info, .header-site-logo-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-tel {
+  margin-right: 4rem;
+}
+
+.header-tel-text {
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #000;
+  letter-spacing: .05rem;
+  margin: 0 0 .5rem;
+}
+
+.header-tel-number {
+  font-family: Helvetica Neue,Arial;
+  font-size: 3.6rem;
+  color: #f29700;
+  letter-spacing: .2rem;
+  line-height: 1;
+}
+
+.header-mail {
+  text-align: center;
+}
+
+.header-mail-text {
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #000;
+  letter-spacing: .05rem;
+  margin: 0 0 .5rem;
+}
+
+.header-mail-btn {
+  width: 26rem;
+}
+
+@media screen and (min-width: 601px) {
+ .display-sp {
+    display: none!important;
+ }
+}
+
+.header-left-menu {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.hamburger {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  position: relative;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.header-right-menu {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+}
+
+.header-contact-btn {
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #f29700;
+  text-align: center;
+}
+
+
+.header-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-top: .1rem solid #f5a623;
+  border-bottom: .1rem solid #f5a623;
+  background: #fffcf7;
+}
+
+.header-nav-inner {
+  position: relative;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu-item {
+  width: 16.66667%;
+  border-left: .1rem solid #f5a623;
+}
+
+.header-nav-dropdown {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + .1rem);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: .1rem solid #979797;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.header-nav-dropdown-content-menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 40rem;
+  padding: 1rem 0 4rem;
+}
+
+.header-menu-item a {
+  position: relative;
+  display: block;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #6e5b49;
+  padding: 1.2rem;
+  text-align: left;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.header-nav-overlay {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(110,91,73,.4);
+}

@@ -1,0 +1,298 @@
+.footer {
+  color: #fff;
+}
+
+.footer-section.is-menu {
+  padding: 5rem 0;
+  background: #52390f;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 112rem;
+  margin: auto;
+}
+
+.footer-menu-item:first-child, .footer-menu-item:nth-child(2), .footer-menu-item:nth-child(4) {
+  width: 20%;
+}
+
+.footer-menu-item>.footer-menu-item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: .15rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footer-menu-item>.footer-menu-item-link>i {
+  display: none;
+}
+
+.footer-menu-item-children {
+  margin-top: 2rem;
+}
+
+.footer-menu-item-children {
+  margin-top: 2rem;
+}
+
+.footer-menu-item-children>li>a {
+  display: inline-block;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #f7b62d;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footer-menu-item-children>li>a>i {
+  display: none;
+}
+
+.footer-menu-item:first-child, .footer-menu-item:nth-child(2), .footer-menu-item:nth-child(4) {
+  width: 20%;
+}
+
+.footer-menu-item>.footer-menu-item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: .15rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.footer-menu-item-children {
+  margin-top: 2rem;
+}
+
+.footer-menu-item-children>li {
+  margin-bottom: .5rem;
+}
+
+.footer-menu-item-children>li>a {
+  display: inline-block;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #f7b62d;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footer-menu-item-children>li>a>i {
+  display: none;
+}
+
+.footer-menu-item:nth-child(3) {
+  width: calc(40% - 1px);
+}
+
+.footer-menu-item>.footer-menu-item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: .15rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footer-menu-item>.footer-menu-item-link>i {
+  display: none;
+}
+
+.footer-menu-item:nth-child(3) .footer-menu-item-children {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 260px;
+}
+
+.footer-menu-item-children>li>a {
+  display: inline-block;
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #f7b62d;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footer-menu-item-children>li>a>i {
+  display: none;
+}
+
+.footer-section.is-contact {
+  padding: 3rem 0 5rem;
+  background: #6a5431;
+}
+
+.footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 78rem;
+  margin: auto;
+}
+
+.footer-contact-text {
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: .05rem;
+  margin: 0 0 .5rem;
+}
+
+.footer-contact-text>span {
+  font-family: HiraKakuPro-W3,\\6E38\30B4\30B7\30C3\30AF Medium,Yu Gothic Medium,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.footer-contact-tel {
+  font-family: Helvetica Neue,Arial;
+  font-weight: 600;
+  font-size: 3.4rem;
+  letter-spacing: .15rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.footer-contact-btn {
+  width: 26rem;
+  margin-top: .5rem;
+}
+
+.footer-contact-hour {
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 1rem 0 0;
+}
+
+.footer-contact-text {
+  font-family: HiraKakuPro-W6,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: .05rem;
+  margin: 0 0 .5rem;
+}
+
+.footer-contact-btn {
+  width: 26rem;
+  margin-top: .5rem;
+}
+
+.footer-section.is-about {
+  padding: 3rem 0;
+  background: #352313;
+  text-align: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-about-logo {
+  width: 12rem;
+  margin: 0 auto 2rem;
+}
+
+.footer-about-socials {
+  margin-bottom: 3rem;
+}
+
+.footer-about-socials>a {
+  font-size: 2.4rem;
+  color: #9e968e;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footer-about-socials>a+a {
+  margin-left: .5rem;
+}
+
+.footer-section.is-copyright {
+  padding: 1rem 0;
+  background: #2c2212;
+  text-align: center;
+}
+
+.footer-copyright-text {
+  font-family: HiraKakuStd-W8,\\6E38\30B4\30B7\30C3\30AF,Yu Gothic,\\30E1\30A4\30EA\30AA,sans-serif;
+  font-weight: 600;
+  font-size: .8rem;
+  color: #84613e;
+  letter-spacing: .08rem;
+}
+
+.footer-about-menus>li {
+  display: inline-block;
+}
+
+.footer-about-menus>li>a {
+  font-size: 1.2rem;
+  color: #ffefce;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
