@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: 'delivery#index'
+  root to: 'items#index'
 end
